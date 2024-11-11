@@ -1,15 +1,24 @@
 @import url(./reset.css);
+.section {
+	width: 100%;
+	padding: 40px 24px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 24px 32px;
+}
+
 .header {
 	width: 100%;
 }
 .header__wrap {
 	max-width: 1400px;
-	width: 80%;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0 auto;
-	padding: 24px 32px;
 }
 
 .menu__wrap {
@@ -24,4 +33,55 @@
 }
 .menu__item:hover {
 	opacity: 0.7;
+}
+
+.about {
+	background-color: #282828;
+}
+.about__wrap {
+	display: flex;
+	gap: 24px;
+}
+.about__img {
+	flex: 1;
+}
+.about__text-box {
+	flex: 1;
+}
+.about__text-box .name {
+	color: #05a771;
+	font-size: 40px;
+	font-weight: 700px;
+}
+.about__text-box .job-title {
+	font-size: 22px;
+	font-weight: 700;
+}
+.about__text-box .desc {
+	margin-top: 16px;
+}
+.about__text-box .desc .text:not(:first-child) {
+	margin-top: 24px;
+}
+.about__text-box .desc strong {
+	font-weight: 600;
+}
+.about__text-box .portfolio-btn {
+	display: block;
+	width: 100%;
+	max-width: 300px;
+	margin-top: 40px;
+	padding: 12px 20px;
+	text-align: center;
+	color: #fff;
+	background-color: #05a771;
+	border-radius: 12px;
+	transition: opacity 0.3s;
+}
+.about__text-box .portfolio-btn:hover {
+	opacity: 0.7;
+}
+
+.capability__wrap {
+	display: grid;
 }

@@ -2,8 +2,15 @@
 
 $c-green: #05a771;
 
-.conatiner {
-	max-width: 1280px;
+.section {
+	width: 100%;
+	padding: 40px 24px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 24px 32px;
 }
 
 .header {
@@ -15,8 +22,6 @@ $c-green: #05a771;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin: 0 auto;
-		padding: 24px 32px;
 	}
 }
 
@@ -38,6 +43,65 @@ $c-green: #05a771;
 	}
 }
 
-.section {
-	border: 1px solid red;
+.about {
+	background-color: #282828;
+
+	&__wrap {
+		display: flex;
+		gap: 24px;
+	}
+
+	&__img {
+		flex: 1;
+	}
+
+	&__text-box {
+		flex: 1;
+
+		.name {
+			color: $c-green;
+			font-size: 40px;
+			font-weight: 700px;
+		}
+
+		.job-title {
+			font-size: 22px;
+			font-weight: 700;
+		}
+
+		.desc {
+			margin-top: 16px;
+
+			.text:not(:first-child) {
+				margin-top: 24px;
+			}
+
+			strong {
+				font-weight: 600;
+			}
+		}
+
+		.portfolio-btn {
+			display: block;
+			width: 100%;
+			max-width: 300px;
+			margin-top: 40px;
+			padding: 12px 20px;
+			text-align: center;
+			color: #fff;
+			background-color: $c-green;
+			border-radius: 12px;
+			transition: opacity 0.3s;
+
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+}
+
+.capability {
+	&__wrap {
+		display: grid;
+	}
 }

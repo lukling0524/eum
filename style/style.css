@@ -1,0 +1,27 @@
+@import url(./reset.css);
+.header {
+	width: 100%;
+}
+.header__wrap {
+	max-width: 1400px;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	padding: 24px 32px;
+}
+
+.menu__wrap {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+.menu__item {
+	color: #05a771;
+	font-weight: 600;
+	transition: opacity 0.3s;
+}
+.menu__item:hover {
+	opacity: 0.7;
+}

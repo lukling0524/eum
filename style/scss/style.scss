@@ -1,0 +1,43 @@
+@import url(./reset.css);
+
+$c-green: #05a771;
+
+.conatiner {
+	max-width: 1280px;
+}
+
+.header {
+	width: 100%;
+
+	&__wrap {
+		max-width: 1400px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 auto;
+		padding: 24px 32px;
+	}
+}
+
+.menu {
+	&__wrap {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+	}
+
+	&__item {
+		color: $c-green;
+		font-weight: 600;
+		transition: opacity 0.3s;
+
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+}
+
+.section {
+	border: 1px solid red;
+}

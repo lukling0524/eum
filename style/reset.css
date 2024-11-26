@@ -87,7 +87,8 @@ button {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+	font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic',
+		'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
 	font-size: 100%;
 	line-height: 1.6;
 	outline: none !important;
@@ -102,8 +103,8 @@ i {
 a,
 area,
 button,
-[role=button],
-input:not([type=range]),
+[role='button'],
+input:not([type='range']),
 label,
 select,
 summary,
@@ -137,8 +138,8 @@ input {
 	border: 1px solid transparent;
 	font-family: inherit;
 	-webkit-appearance: none;
-	   -moz-appearance: none;
-	        appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
 textarea {
@@ -148,8 +149,8 @@ textarea {
 	font-family: inherit;
 	box-sizing: border-box;
 	-webkit-appearance: none;
-	   -moz-appearance: none;
-	        appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
 select {
@@ -187,7 +188,8 @@ body {
 	width: 100%;
 	height: 100%;
 	min-height: 100%;
-	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+	font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic',
+		'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
 	text-align: left;
 	-webkit-font-smoothing: antialiased;
 	word-break: keep-all;
@@ -208,10 +210,10 @@ a:focus {
 }
 
 body {
-	font-size: 19px;
+	font-size: 18px;
 	line-height: 1.7;
-	color: #FFFFFF;
-	background-color: #1E1E1E;
+	color: #ffffff;
+	background-color: #1e1e1e;
 	overflow-x: hidden;
 	transition: color, background 0.2s;
 }
@@ -220,7 +222,7 @@ body {
 }
 
 .light-theme body {
-	background-color: #FAFAFA;
+	background-color: #fafafa;
 }
 
 body::-webkit-scrollbar {
@@ -236,7 +238,8 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track {
 	background-color: #e5e5e5;
 }
-body::-webkit-scrollbar-button:start:decrement, body::-webkit-scrollbar-button:end:increment {
+body::-webkit-scrollbar-button:start:decrement,
+body::-webkit-scrollbar-button:end:increment {
 	display: none !important;
 	width: 0;
 	height: 0;
